@@ -10,9 +10,9 @@ app.get('/',(req,res) => {
   res.sendFile(path.join(__dirname,"views","home.html"))
 })
 
-app.use(function(req, res, next) {
+/* app.use(function(req, res, next) {
   next(createError(404));
-});
+}); */
 
 
 // app.use(function(err, req, res, next) {
