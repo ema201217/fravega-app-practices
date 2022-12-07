@@ -1,113 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-   <link rel="stylesheet" href="/stylesheets/style.css">
-    <title>Home</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body class="home">
-    <header class="header">
-      <!-- navbar secondary -->
-      <nav class="navbar-secondary">
-        <ul class="list-container">
-          <li class="list-item">
-            <i class="fa-solid fa-truck-fast icon"></i>
-            <a href="#" class="link">Seguí tu compra</a>
-          </li>
-          <li class="list-item">
-            <i class="fa-solid fa-gear icon"></i>
-            <a href="#" class="link">Servicio técnico</a>
-          </li>
-          <li class="list-item">
-            <i class="fa-solid fa-store icon"></i>
-            <a href="#" class="link">Sucursales</a>
-          </li>
-          <li class="list-item">
-            <i class="fa-solid fa-phone-volume icon"></i>
-            <a href="#" class="link">Venta telefónica</a>
-          </li>
-          <li class="list-item">
-            <i class="fa-solid fa-message icon"></i>
-            <a href="#" class="link">Centro de ayuda</a>
-          </li>
-        </ul>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Home</title>
+</head>
 
-        <figure class="credit-img-container">
-          <img src="/images/logo-1-header.PNG" alt="logo1" />
+<body class="home">
+  <header class="header">
+    <!-- navbar secondary -->
+    <nav class="navbar-secondary">
+      <ul class="list-container">
+        <li class="list-item">
+          <i class="fa-solid fa-truck-fast icon"></i>
+          <a href="#" class="link">Seguí tu compra</a>
+        </li>
+        <li class="list-item">
+          <i class="fa-solid fa-gear icon"></i>
+          <a href="#" class="link">Servicio técnico</a>
+        </li>
+        <li class="list-item">
+          <i class="fa-solid fa-store icon"></i>
+          <a href="#" class="link">Sucursales</a>
+        </li>
+        <li class="list-item">
+          <i class="fa-solid fa-phone-volume icon"></i>
+          <a href="#" class="link">Venta telefónica</a>
+        </li>
+        <li class="list-item">
+          <i class="fa-solid fa-message icon"></i>
+          <a href="#" class="link">Centro de ayuda</a>
+        </li>
+      </ul>
+
+      <figure class="credit-img-container">
+        <img src="/images/logo-1-header.PNG" alt="logo1" />
+      </figure>
+    </nav>
+
+    <!-- search bar and my account -->
+    <div class="search-bar-and-other">
+      <section class="section-location">
+        <figure class="logo-img-container">
+          <img src="/images/logo-2-header.PNG" alt="logo2" />
         </figure>
-      </nav>
 
-      <!-- search bar and my account -->
-      <div>
-        <section class="section-location">
-          <figure class="logo-img-container">
-            <img src="/images/logo-2-header.PNG" alt="logo2" />
-          </figure>
+        <div class="location-container">
+          <i class="fa-solid fa-location-dot icon"></i>
+          <p class="text">
+            Estas en <a class="link" href="#">Capital Federal</a>
+          </p>
+        </div>
+      </section>
 
-          <div class="location-container">
-            <i class="fa-solid fa-location-dot icon"></i>
-            <p class="text">
-              Estas en <a class="link" href="#">Capital Federal</a>
-            </p>
-          </div>
-        </section>
+      <section class="searchbar-container">
+        <form action="" class="form">
+          <input class="input-search" type="text" placeholder="Buscar productos" />
+          <button class="btn-search">
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+          </button>
+        </form>
+      </section>
 
-        <section class="searchbar-container">
-          <form action="" class="form">
-            <input
-              class="input-search"
-              type="text"
-              placeholder="Buscar productos"
-            />
-            <button class="btn-search">
-              <i class="fa-solid fa-magnifying-glass icon"></i>
-            </button>
-          </form>
-        </section>
+      <section class="account-shopping-cart-container">
+        <div class="account-container">
+          <i class="fa-regular fa-circle-user icon"></i>
+          <span class="text">Mi cuenta</span>
+        </div>
+        <div class="shopping-cart-container">
+          <i class="fa-solid fa-cart-shopping icon"></i>
+        </div>
+      </section>
+    </div>
 
-        <section class="account-shopping-cart-container">
-          <div class="account-container">
-            <i class="fa-regular fa-circle-user icon"></i>
-            <span class="text">Mi cuenta</span>
-          </div>
-          <div class="shopping-cart-container">
-            <i class="fa-solid fa-cart-shopping icon"></i>
-          </div>
-        </section>
-      </div>
+    <!-- navbar primary -->
+    <nav class="navbar-primary">
+      <ul class="list-container">
+        <li class="list-item">
+          <i class="fa-solid fa-bars icon"></i>
+          <a href="#" class="link">Categorias</a>
+        </li>
+        <li class="list-item"><a href="#" class="link">Televisores</a></li>
+        <li class="list-item"><a href="#" class="link">Celulares</a></li>
+        <li class="list-item"><a href="#" class="link">Tienda Samsung</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <!-- navbar primary -->
-      <nav class="navbar-primary">
-        <ul class="list-container">
-          <li class="list-item">
-            <i class="fa-solid fa-bars icon"></i>
-            <a href="#" class="link">Categorias</a>
-          </li>
-          <li class="list-item"><a href="#" class="link">Televisores</a></li>
-          <li class="list-item"><a href="#" class="link">Celulares</a></li>
-          <li class="list-item"><a href="#" class="link">Tienda Samsung</a></li>
-        </ul>
-      </nav>
-    </header>
-
+  <main class="home-main">
     <!-- BANNER | CAROUSEL -->
     <section class="section-banner">
       <figure class="img-container">
-        <img
-          src="https://images.fravega.com/f300/bda435e2567a0ea6d7a8256f7e178214.jpg"
-          alt=""
-        />
+        <img src="https://images.fravega.com/f300/bda435e2567a0ea6d7a8256f7e178214.jpg" alt="" />
       </figure>
       <!--  <figure class="img-container"><img src="" alt=""></figure>
     <figure class="img-container"><img src="" alt=""></figure> -->
@@ -118,7 +109,7 @@
       </div>
 
       <div class="dots-container">
-        <i class="fa-regular fa-circle"></i>
+        <i class="fa-regular fa-circle dot-item"></i>
         <i class="fa-solid fa-circle dot-item"></i>
         <i class="fa-solid fa-circle dot-item"></i>
         <i class="fa-solid fa-circle dot-item"></i>
@@ -129,10 +120,7 @@
     <section class="section-info">
       <div class="promotions-container">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f100/165db2d0462bd48b0529bd51d748c281.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f100/165db2d0462bd48b0529bd51d748c281.png" alt="" />
         </figure>
         <div class="text-container">
           <p class="text">Pagá con crédito y débito</p>
@@ -142,10 +130,7 @@
 
       <div class="credits-container">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f100/6bf1fed1be0627c5af4a0c629bc887b3.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f100/6bf1fed1be0627c5af4a0c629bc887b3.png" alt="" />
         </figure>
         <div class="text-container">
           <p class="text">
@@ -160,10 +145,7 @@
 
       <div class="shipping-container">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f100/e3921c4b9f8b79cf7e0e4a51520db73e.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f100/e3921c4b9f8b79cf7e0e4a51520db73e.png" alt="" />
         </figure>
         <div class="text-container">
           <p class="text">Envíos a todo el país y retiro gratis</p>
@@ -174,60 +156,44 @@
 
     <!-- SECTION CATEGORIES -->
     <section class="section-categories-cards">
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/9abd0769be42a0b38ad5719626683a9c.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/9abd0769be42a0b38ad5719626683a9c.png" alt="" />
         </figure>
         <p class="text">Televisores</p>
       </article>
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/3db77de0e91e58f2e4b9a65346c5e490.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/3db77de0e91e58f2e4b9a65346c5e490.png" alt="" />
         </figure>
         <p class="text">Celulares</p>
       </article>
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/add35cff8c4ea40a56e35da1efae1b96.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/add35cff8c4ea40a56e35da1efae1b96.png" alt="" />
         </figure>
         <p class="text">Climatización</p>
       </article>
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/0e82ae0b437f6aa36763927b43a23bee.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/0e82ae0b437f6aa36763927b43a23bee.png" alt="" />
         </figure>
         <p class="text">Colchones y Sommiers</p>
       </article>
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/23ba46bcf3814f2fcdddc1c96e17b009.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/23ba46bcf3814f2fcdddc1c96e17b009.png" alt="" />
         </figure>
         <p class="text">Heladeras, Freezers y Cavas</p>
       </article>
-      <article class="card-container">
+      <article class="card">
         <figure class="img-container">
-          <img
-            src="https://images.fravega.com/f300/d4d6b2819e3c10fde48e4f2f589e090e.png"
-            alt=""
-          />
+          <img src="https://images.fravega.com/f300/d4d6b2819e3c10fde48e4f2f589e090e.png" alt="" />
         </figure>
         <p class="text">Notebooks</p>
       </article>
     </section>
-  </body>
+  </main>
+</body>
+
 </html>

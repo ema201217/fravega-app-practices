@@ -1,0 +1,48 @@
+.home {}
+.home-main {}
+
+/* SECTION BANNER */
+/* ************** */
+.home-main .section-banner {}
+.home-main .section-banner .img-container {}
+.home-main .section-banner .img-container img {}
+.home-main .section-banner .rows {}
+.home-main .section-banner .rows i {}
+.home-main .section-banner .dots-container {}
+.home-main .section-banner .dots-container .dot-item {}
+
+/* SECTION INFO */
+/* ************ */
+.home-main .section-info {}
+
+/* promotions */
+.home-main .section-info .promotions-container {}
+.home-main .section-info .promotions-container .img-container {}
+.home-main .section-info .promotions-container .img-container img {}
+.home-main .section-info .promotions-container .text-container {}
+.home-main .section-info .promotions-container .text-container .text {}
+.home-main .section-info .promotions-container .text-container .link {}
+
+/* credits */
+.home-main .section-info .credits-container {}
+.home-main .section-info .credits-container .img-container {}
+.home-main .section-info .credits-container .img-container img {}
+.home-main .section-info .credits-container .text-container {}
+.home-main .section-info .credits-container .text-container .text {}
+.home-main .section-info .credits-container .text-container .link {}
+
+/* shipping */
+.home-main .section-info .shipping-container {}
+.home-main .section-info .shipping-container .img-container {}
+.home-main .section-info .shipping-container .img-container img {}
+.home-main .section-info .shipping-container .text-container {}
+.home-main .section-info .shipping-container .text-container .text {}
+.home-main .section-info .shipping-container .text-container .link {}
+
+
+/* SECTION CATEGORIES */
+/* ************ */
+.home-main .section-categories-cards {}
+.home-main .section-categories-cards .card {}
+.home-main .section-categories-cards .card .img-container {}
+.home-main .section-categories-cards .card .text {}

@@ -1,0 +1,49 @@
+.header {}
+
+/* NAVIGATION SECONDARY */
+/* ******************** */
+.header .navbar-secondary .list-container {}
+.header .navbar-secondary .list-container .list-item {}
+.header .navbar-secondary .list-container .list-item .icon {}
+.header .navbar-secondary .list-container .list-item .link {}
+.header .navbar-secondary .credit-img-container {}
+.header .navbar-secondary .credit-img-container img {}
+
+/* SEARCH BAR AND MY ACCOUNT */
+/* ************************* */
+.header .search-bar-and-other {}
+
+/* section location */
+.header .search-bar-and-other .section-location {}
+.header .search-bar-and-other .section-location .logo-img-container {}
+.header .search-bar-and-other .section-location .logo-img-container img {}
+.header .search-bar-and-other .section-location .location-container {}
+.header .search-bar-and-other .section-location .location-container .icon {}
+.header .search-bar-and-other .section-location .location-container .text {}
+.header .search-bar-and-other .section-location .location-container .text .link {}
+
+
+/* section search bar */
+.header .searchbar-container   {}
+.header .searchbar-container .form {}
+.header .searchbar-container .form .input-search {}
+.header .searchbar-container .form .btn-search {}
+.header .searchbar-container .form .btn-search .icon {}
+
+/* section account-shopping-cart-container */
+.header .account-shopping-cart-container {}
+.header .account-shopping-cart-container .account-container {}
+.header .account-shopping-cart-container .account-container .icon {}
+.header .account-shopping-cart-container .account-container .text {}
+.header .account-shopping-cart-container .shopping-cart-container {}
+.header .account-shopping-cart-container .shopping-cart-container .icon {}
+
+
+/* NAVIGATION PRIMARY */
+/* ****************** */
+.header .navbar-primary {}
+.header .navbar-primary {}
+.header .navbar-primary .list-container {}
+.header .navbar-primary .list-container .list-item {}
+.header .navbar-primary .list-container .list-item .icon {}
+.header .navbar-primary .list-container .list-item .link {}
